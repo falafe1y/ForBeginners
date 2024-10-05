@@ -16,6 +16,27 @@ For compilation, you need to specify the `main.cpp` file, the file with the impl
 
 ```g++ main.cpp BubbleSort.cpp -o main```
 
+## Content
+- **Algorithms**:  
+  - [x] Bubble sort
+  - [x] Insert sort
+  - [ ] Selection sort
+  - [ ] Counting sort
+  - [ ] Radix sort
+  - [ ] Shaker sort
+  - [ ] Fast sort
+  - [ ] Heap sort
+  - [ ] Merge sort
+
+- **Data structs**:
+  - [ ] Stack
+  - [ ] Heap
+  - [ ] Graph
+  - [ ] Tree
+  - [ ] Vector
+  - [ ] Hash-table
+  - [ ] Linked list
+
 ## Feedback
 
 If you have any questions, want to suggest an idea for implementation, or simply leave feedback, send your messages to:  
