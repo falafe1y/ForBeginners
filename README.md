@@ -20,7 +20,7 @@ For compilation, you need to specify the `main.cpp` file, the file with the impl
 - **Algorithms**:  
   - [x] Bubble sort
   - [x] Insert sort
-  - [ ] Selection sort
+  - [x] Selection sort
   - [ ] Counting sort
   - [ ] Radix sort
   - [ ] Shaker sort
