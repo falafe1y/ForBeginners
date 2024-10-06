@@ -19,6 +19,7 @@ For compilation, you need to specify the `main.cpp` file, the file with the impl
 ```g++ main.cpp BubbleSort.cpp -o main```
 
 ## Content
+In this repository you will find fundamental algorithms and data structures in C++, namely:
 - **Algorithms**:  
   - [x] Bubble sort
   - [x] Insert sort
