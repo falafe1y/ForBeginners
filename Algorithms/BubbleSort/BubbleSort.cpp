@@ -18,7 +18,7 @@ void BubbleSort(vector<int> *arr) {
                 cout << (*arr)[i] << ' ';
             }
             cout << '\n';
-            // ===========================
+            // Debug =====================
         }
     }
 }
@@ -36,7 +36,7 @@ void BubbleSort(int (*arr)[], int size) {
                 cout << (*arr)[i] << ' ';
             }
             cout << '\n';
-            // ===========================
+            // Debug =====================
         }
     }
 }
