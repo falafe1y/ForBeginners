@@ -1,6 +1,8 @@
 # Description
 I created and fill this repository with only one goal — to **help** beginner developers better understand the essence of basic things in IT, because I remember how difficult it was for me to understand these truly **fundamental** things on my own. I tried to organize the code as neatly and clearly as possible so that it would be easier for beginners to navigate. I also specifically separated the description and implementation of functions so that you could get used to the proper formatting of code in your future projects :)
 
+![alt text](https://i.pinimg.com/originals/3a/54/a2/3a54a2fc55b068a42679cedd8e892e0b.jpg)
+
 ## Installation
 You need to move to the working directory and clone this repository with HTTPS:
 
