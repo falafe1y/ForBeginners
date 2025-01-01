@@ -24,7 +24,7 @@ In this repository you will find fundamental algorithms and data structures in C
   - [x] Bubble sort
   - [x] Insert sort
   - [x] Selection sort
-  - [ ] Counting sort
+  - [x] Counting sort
   - [ ] Radix sort
   - [ ] Shaker sort
   - [ ] Fast sort
