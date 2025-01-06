@@ -86,7 +86,7 @@ int main() {
         stack.pop();
         stack.pop();
 
-        stack.pop();
+        stack.pop();    // Error
     } catch (const std::exception& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
