@@ -4,7 +4,7 @@
 int main() {
     std::vector<int> arr = {170, 45, 75, 90, 802, 24, 2, 66};
 
-    std::cout << "Исходный массив: ";
+    std::cout << "source array: ";
     for (int num : arr) {
         std::cout << num << " ";
     }
@@ -12,7 +12,7 @@ int main() {
 
     radixSort(arr);
 
-    std::cout << "Отсортированный массив: ";
+    std::cout << "Sorted array: ";
     for (int num : arr) {
         std::cout << num << " ";
     }
