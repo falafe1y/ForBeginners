@@ -25,14 +25,20 @@ In this repository you will find fundamental algorithms and data structures in C
   - [x] Insert sort
   - [x] Selection sort
   - [x] Counting sort
-  - [ ] Radix sort
+  - [x] Radix sort
   - [ ] Shaker sort
   - [ ] Fast sort
   - [ ] Heap sort
   - [ ] Merge sort
+	
+  - [ ] Linear search
+  - [ ] Binary search
+  - [ ] Hash-table search
+  - [ ] Tree search
+  - [ ] Graph search
 
 - **Data structs**:
-  - [ ] Stack
+  - [x] Stack
   - [ ] Heap
   - [ ] Graph
   - [ ] Tree
