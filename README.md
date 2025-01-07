@@ -1,5 +1,5 @@
 # Description
-I created and fill this repository with only one goal — to **help** beginner developers better understand the essence of basic things in IT, because I remember how difficult it was for me to understand these truly **fundamental** things on my own. I tried to organize the code as neatly and clearly as possible so that it would be easier for beginners to navigate. I also specifically separated the description and implementation of functions so that you could get used to the proper formatting of code in your future projects :)
+I created and fill this repository with only one goal — to **help** beginner developers better understand the essence of basic things in IT, because I remember how difficult it was for me to understand these truly **fundamental** things on my own. I tried to organize the code as neatly and clearly as possible so that it would be easier for beginners to navigate. I also specifically separated the description and implementation of functions so that you could get used to the proper formatting of code in your future projects.
 
 ![alt text](https://i.pinimg.com/originals/3a/54/a2/3a54a2fc55b068a42679cedd8e892e0b.jpg)
 
@@ -19,8 +19,14 @@ For compilation, you need to specify the `main.cpp` file, the file with the impl
 ```g++ main.cpp BubbleSort.cpp -o main```
 
 ## Content
+
 In this repository you will find fundamental algorithms and data structures in C++, namely:
-- **Algorithms**:  
+- **Algorithms**:
+
+  **Big O:**
+  - [ ] Examples of complexity assessment
+
+  **Sort:**
   - [x] Bubble sort
   - [x] Insert sort
   - [x] Selection sort
@@ -30,7 +36,8 @@ In this repository you will find fundamental algorithms and data structures in C
   - [ ] Fast sort
   - [ ] Heap sort
   - [ ] Merge sort
-	
+
+  **Seacrh:**
   - [ ] Linear search
   - [ ] Binary search
   - [ ] Hash-table search
@@ -41,14 +48,13 @@ In this repository you will find fundamental algorithms and data structures in C
   - [x] Stack
   - [ ] Heap
   - [ ] Graph
-  - [ ] Tree
+  - [x] Tree
   - [ ] Vector
   - [ ] Hash-table
   - [ ] Linked list
+  - [ ] Queue
 
 ## Feedback
 
 If you have any questions, want to suggest an idea for implementation, or simply leave feedback, send your messages to:  
-falafelyy@ya.ru  
-or  
-falafelus3@gmail.com
+falafelyy@ya.ru or falafelus3@gmail.com
