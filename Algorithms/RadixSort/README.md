@@ -1,4 +1,5 @@
 # Radix sort
+- [ ] Been finished?
 ## Theory
 **Big O** — *O(d⋅(n+k))*, where:
 

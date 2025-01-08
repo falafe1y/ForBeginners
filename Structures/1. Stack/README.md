@@ -1,25 +1,26 @@
-# Стек
-## Теория
-**Стек** — это базовая структура данных, которая работает по принципу LIFO (Last In, First Out), что означает: последний добавленный элемент будет удалён первым.
+# Stack
+- [ ] Been finished?
+## Theory
+**A stack** is a basic data structure that works on the LIFO (Last In, First Out) principle, meaning that the last element added will be the first to be removed.
 
-Примером может служить стопка вымытых тарелок. Невозможно взять тарелку из середины или с самого низа. Можно взять только ту, что находится наверху. При этом тарелка, которая сейчас сверху, попала туда последней, а тарелка на самом дне — первой.
+An example would be a stack of washed plates. It is not possible to take a plate from the middle or the very bottom. You can only take the one on top. The plate that is currently on top was the last to be added, and the plate at the very bottom was the first.
 
-Можно также представить стек как колоду карт — принцип тот же, аналогия не так важна.
+You can also think of a stack as a deck of cards - the principle is the same, the analogy is not so important.
 
-Реализация стека должна включать несколько базовых операций:
+A stack implementation should include several basic operations:
 
-- Push: Добавить элемент в верх стека.
-- Pop: Удалить элемент из верха стека.
-- Peek (или Top): Получить значение верхнего элемента стека без его удаления.
-- IsEmpty: Проверить, пуст ли стек.
-- Size: Получить количество элементов в стеке.
+- Push: Add an element to the top of the stack.
+- Pop: Remove an element from the top of the stack.
+- Peek (or Top): Get the value of the top element of the stack without removing it.
+- IsEmpty: Check if the stack is empty.
+- Size: Get the number of elements in the stack.
 
-**Используется для реализации**:
-- Рекурсии: для хранения контекста вызовов функций.
-- Откатов: например, для реализации функции отмены действий в приложениях.
-- Обработки вызовов функций: при выполнении программ стек управляет вызовами функций и их параметрами, что позволяет организовать выполнение и возврат к предыдущим функциям.
+**Used to implement**:
+- Recursion: to store the context of function calls.
+- Rollbacks: for example, to implement the function of undoing actions in applications.
+- Handling function calls: when executing programs, the stack manages function calls and their parameters, which allows you to organize the execution and return to previous functions.
 
-# Объяснение
+# Explanation
 ```cpp
 template<typename T>
 class Stack {

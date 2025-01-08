@@ -1,4 +1,5 @@
 # Counting sort
+- [ ] Been finished?
 ## Theory
 **Big O** — O(n * k)
 
