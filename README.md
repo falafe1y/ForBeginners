@@ -5,6 +5,8 @@ The local repository of the implementation of a particular structure or algorith
 
 As you can see, I have arranged the data structures by complexity level. This is the level I advise you to study them by. If you know the structure of a **queue**, then you can safely skip the **stack** (of course, provided that you understand it) and start studying **linked lists**. The main thing is to be honest with yourself, there is nothing shameful in ignorance - it is shameful to **not learn**.
 
+Finally, I want to make a small clarification: this repository will not cover the basic syntax and/or concepts of the language. For example, what a function is, what `return` means, how loops work, and so on. If you have moved to this stage consciously, then you are already familiar with all of the above. If a description of such things is really necessary, please let me know.
+
 ![alt text](https://i.pinimg.com/originals/3a/54/a2/3a54a2fc55b068a42679cedd8e892e0b.jpg)
 
 ## Installation
