@@ -1,5 +1,5 @@
 # Graph
-- [ ] Been finished?
+- [ ] Done?
 ## Theory
 **Big O** — 
 

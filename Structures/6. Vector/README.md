@@ -1,5 +1,5 @@
 # Vector
-- [ ] Been finished?
+- [ ] Done?
 ## Theory
 **Big O** — 
 

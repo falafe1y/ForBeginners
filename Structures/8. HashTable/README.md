@@ -1,5 +1,5 @@
 # Hash-table
-- [ ] Закончено?
+- [ ] Done?
 ## Theory
 **Big O** — 
 

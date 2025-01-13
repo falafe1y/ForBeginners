@@ -1,5 +1,5 @@
 # Heap
-- [ ] Been finished?
+- [ ] Done?
 ## Theory
 
 There are two types of heaps - **maximum** and **minimum**
@@ -22,7 +22,7 @@ There are two types of heaps - **maximum** and **minimum**
 |Select *K* best/worst items|*K* largest items|*K* smallest items|
 |Streaming Data|Maximum Value in Stream|Minimum Value in Stream|
 
-# Differences between a heap and a tree
+## Differences between a heap and a tree
 A tree and a heap are data structures that are often confused due to their similarity, but they have fundamental differences. Let's analyze them by key parameters:
 
 - **Tree** is a merarchical structure, where each node can have an arbitrary number of descendants.

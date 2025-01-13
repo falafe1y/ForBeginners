@@ -50,13 +50,13 @@ In this repository you will find fundamental algorithms and data structures in C
 
 - **Data structs**:
   1. [x] Stack
-  2. [ ] Queue
-  3. [ ] Linked list
+  2. [x] Queue
+  3. [x] Linked list
   4. [x] Tree
-  5. [ ] Graph
-  6. [ ] Vector
+  5. [x] Graph
+  6. [x] Vector
   7. [x] Heap
-  8. [ ] Hash-table
+  8. [x] Hash-table
 
 ## Feedback
 
