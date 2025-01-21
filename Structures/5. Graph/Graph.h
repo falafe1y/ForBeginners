@@ -7,10 +7,12 @@ class Graph {
 private:
     // Store adjacency list: vertex -> neighbor list
     std::unordered_map<int, std::list<int>> adjList;
-
+    bool isDirected;
 public:
+    Graph(bool direct = false) : isDirected(direct) {}
+    
     // Add new edge
-    void addEdge(int u, int v, bool isDirected = false);
+    void addEdge(int u, int v);
 
     // Remove vertex
     void removeVertex(int vertex);

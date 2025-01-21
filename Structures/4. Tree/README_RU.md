@@ -24,16 +24,16 @@
 
 # Объяснение
 
-Здесь будут обсуждаться **частные** методы. Подробно объяснять публичные методы нет смысла, поскольку они служат обычными **интерфейсами**.
+Здесь будут обсуждаться **приватные** методы. Подробно объяснять публичные методы нет смысла, поскольку они служат обычными **интерфейсами**.
 
 ```cpp
 class BinaryTree {
-struct Node {
-int data;
-Node* left;
-Node* right;
+    struct Node {
+    int data;
+    Node* left;
+    Node* right;
 
-Node(int value) : data(value), left(nullptr), right(nullptr) {}
+    Node(int value) : data(value), left(nullptr), right(nullptr) {}
 };
 ```
 
@@ -42,22 +42,22 @@ Node(int value) : data(value), left(nullptr), right(nullptr) {}
 ```cpp
 Node* root;
 
-void insertPrivate(Node* node, int value, const std::string& direction) {
-if (direction == "left") {
-if (node->left == nullptr) {
-node->left = new Node(value);
-} else {
-insertPrivate(node->left, value, direction);
-}
-} else if (direction == "right") {
-if (node->right == nullptr) {
-node->right = new Node(value);
-} else {
-insertPrivate(node->right, value, direction);
-}
-} else {
-return;
-}
+    void insertPrivate(Node* node, int value, const std::string& direction) {
+        if (direction == "left") {
+            if (node->left == nullptr) {
+                node->left = new Node(value);
+        } else {
+            insertPrivate(node->left, value, direction);
+        }
+        } else if (direction == "right") {
+            if (node->right == nullptr) {
+                e->right = new Node(value);
+            } else {
+                insertPrivate(node->right, value, direction);
+            }
+        } else {
+    return;
+    }
 }
 ```
 

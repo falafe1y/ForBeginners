@@ -7,7 +7,7 @@ int main() {
     // Adding elements
     vec.push_back(10);
     vec.push_back(20);
-    vec.push_back(30);
+    vec.push_back(30); 
 
     std::cout << "Vector elements: ";
     for (size_t i = 0; i < vec.size(); ++i) {

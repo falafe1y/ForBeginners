@@ -5,7 +5,7 @@ class LinkedList {
 private:
     struct Node {
         T data;
-        Node* next;
+        Node* next; // Pointer to next node
 
         Node(const T& value) : data(value), next(nullptr) {}
     };

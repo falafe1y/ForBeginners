@@ -3,7 +3,7 @@
 #include "Graph.h"
 
 // Add new edge
-void Graph::addEdge(int u, int v, bool isDirected) {
+void Graph::addEdge(int u, int v) {
     adjList[u].push_back(v); // Add edge u -> v
     if (!isDirected) {
         adjList[v].push_back(u); // Add a reverse edge v -> u if the graph is undirected
@@ -12,7 +12,7 @@ void Graph::addEdge(int u, int v, bool isDirected) {
 
 // Remove vertex
 void Graph::removeVertex(int vertex) {
-    adjList.erase(vertex); // Delete the vertex and all its outgoing connections
+    adjList.erase(vertex); // Remove the vertex and all its outgoing connections
     for (auto& pair : adjList) {
         pair.second.remove(vertex); // Remove incoming links to this vertex
     }

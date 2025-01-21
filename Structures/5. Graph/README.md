@@ -1,7 +1,6 @@
 # Graph
 - [ ] Done?
 ## Theory
-**Big O** — 
 
 - -
 
