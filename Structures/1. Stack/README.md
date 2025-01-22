@@ -32,19 +32,19 @@ ___
 template<typename T>
 class Stack {
 private:
-struct Node {
-T data;
-Node* next;
+    struct Node {
+        T data;
+        Node* next;
 
-Node(const T &value, Node* nextNode = nullptr) {
-data = value;
-next = nextNode;
-std::cout << "A new node has been created!\n";
-}
-};
+        Node(const T &value, Node* nextNode = nullptr) {
+            data = value;
+            next = nextNode;
+            std::cout << "Создан новый узел!\n";
+        }
+    };
 
-Node* topNode;
-size_t size;
+    Node* topNode;
+    size_t size;
 ```
 
 `template<typename T>` is used when it is not known in advance what type of data we will be working with. The stack must be able to store different data types - int, string, float, boolean, as well as our own types, so we use templates.
@@ -61,29 +61,29 @@ ___
 Stack() : topNode(nullptr), size(0) {}
 
 ~Stack() {
-while (!isEmpty()) {
-pop();
-}
+    while (!isEmpty()) {
+        pop();
+    }
 }
 ```
 Constructor and destructor. Constructor can be replaced with...
 ```cpp
 // Stack() {
-// topNode = nullptr;
-// size = 0;
+//     topNode = nullptr;
+//     size = 0;
 // }
 ```
 ___
 ```cpp
 void pop() {
-if (isEmpty()) {
-throw std::underflow_error("Stack is empty!");
-}
-Node* temp = topNode;
-topNode = topNode->next;
-delete temp;
---size;
-}
+        if (isEmpty()) {
+            throw std::underflow_error("Stack is empty!");
+        }
+        Node* temp = topNode;
+        topNode = topNode->next;
+        delete temp;
+        --size;
+    }
 ```
 Method for removing the top of the stack. The line `Node* temp = topNode;` creates a temporary node pointing to the current top of the stack (`topnode`). This step is necessary to save a reference to the current node before deleting it. Next, we update the current node to the previous one `topNode = topNode->next;`, so now `topNode` points to the second from the top element in the stack. Then we delete the temporary node and decrease `size` by 1.
 ### Example:

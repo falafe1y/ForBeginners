@@ -42,10 +42,10 @@
 ___
 ```cpp
 struct Node {
-        T data;
-        Node* next;
+    T data;
+    Node* next;
 
-        Node(const T& value) : data(value), next(nullptr) {}
+    Node(const T& value) : data(value), next(nullptr) {}
 };
 
 Node* head; // Pointer to begin of list
@@ -88,7 +88,7 @@ newNode->next = head;   // Новый элемент теперь указыва
 head = newNode; // Голова теперь указывает на новый элемент (на 5)
 ```
 Теперь структура списка будет такая:
-```cpp
+```
     5 -> 10 -> 20 -> 30
     |
    HEAD
