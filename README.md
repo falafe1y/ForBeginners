@@ -57,8 +57,8 @@ In this repository you will find fundamental algorithms and data structures in C
   4. [x] Tree
   5. [x] Graph
   6. [x] Vector
-  7. [ ] Heap
-  8. [ ] Hash-table
+  7. [x] Heap
+  8. [x] Hash-table
 
 ## Feedback
 

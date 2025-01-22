@@ -1,6 +1,4 @@
 # Hash Table
-- [ ] Done?
-## Theory
 **A hash table** is a data structure that allows for efficient storage and retrieval of data in close to *O(1)* time. It is widely used to implement associative arrays, where elements are stored as key-value pairs.
 
 The basic idea of ​​a hash table is to use a hash function that transforms a key into an index to access the array where the values ​​are stored.

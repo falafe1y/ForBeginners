@@ -1,6 +1,4 @@
 # Graph
-- [ ] Done?
-## Theory
 A graph is a fundamental data structure widely used in many areas of our lives. A graph data structure is a set of nodes that have data and are connected to other nodes.
 
 A graph can be:

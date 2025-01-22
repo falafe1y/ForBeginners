@@ -1,6 +1,5 @@
 # Stack
-- [ ] Done?
-## Theory
+
 **Stack** is a basic data structure that works on the LIFO (Last In, First Out) principle, meaning that the last element added will be the first to be removed.
 
 An example would be a stack of washed plates. It is not possible to take a plate from the middle or the very bottom. You can only take the one on top. The plate that is currently on top was the last to be added, and the plate at the very bottom was the first.

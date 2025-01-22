@@ -1,7 +1,4 @@
 # Queue
-- [ ] Done?
-## Theory
-
 A Queue is a FIFO (First In, First Out) data structure. This means that items in a queue are added to the end (the back of the queue) and retrieved from the front (the front of the queue).
 
 An example would be a typical grocery store line: if you are the first to arrive, you are also the first to be served and leave the store (queue).

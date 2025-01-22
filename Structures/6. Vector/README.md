@@ -1,6 +1,4 @@
 # Vector
-- [ ] Done?
-## Theory
 Vector is a container that represents a dynamic array. It allows you to store and manage elements. The access speed to elements is *O(1)*, since the data is in a continuous memory area. The implementation of the vector should imply automatic memory allocation for new data, as well as clearing the memory of deleted objects, so as not to create leaks.
 
 **Used to implement**:

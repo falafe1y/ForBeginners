@@ -1,6 +1,4 @@
 # Heap
-- [ ] Done?
-## Theory
 
 There are two types of heaps - **max-heap** and **min-heap**
 Differences:

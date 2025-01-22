@@ -1,6 +1,4 @@
 # Binare tree
-- [ ] Done?
-## Theory
 
 Why **binary** tree? A node in such a tree can only have **two** children - a left and a right.
 

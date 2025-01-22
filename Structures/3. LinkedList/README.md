@@ -1,6 +1,4 @@
 # Linked list
-- [ ] Done?
-## Theory
 A linked list is a data structure consisting of nodes, where each node contains **data** and **a pointer to the next node** (or several pointers in the case of a doubly linked list). In memory, such a structure is stored randomly. A linked list does not require nodes to be in adjacent memory cells. This has both pros and cons.
 
 There are 3 types of linked lists:
