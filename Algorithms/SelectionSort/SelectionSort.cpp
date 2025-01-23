@@ -11,14 +11,6 @@ void SelectionSort(vector<int> *arr) {
             min = currentElmnt;
         }
         swap((*arr)[min], (*arr)[first]);       // the first element in this iteration is swapped with the minimum               
-
-        // Debug =====================
-        cout << "Iteration №" << first+1 << '\n';
-        for (int i = 0; i < arr->size(); ++i) {
-            cout << (*arr)[i] << ' ';
-        }
-        cout << '\n';
-        // Debug =====================
     }
 }
 

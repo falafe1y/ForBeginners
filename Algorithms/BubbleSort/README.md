@@ -9,7 +9,7 @@ ___
 - Easy to implement.
 - Can be useful for learning the basics of sorting.
 
-### Cons:
+### Cons
 
 - Has quadratic complexity (O(n²)), which makes it **inefficient for large data sets**.
 - **Not stable** in the case of an array with identical elements (although it can be made stable with some improvements).

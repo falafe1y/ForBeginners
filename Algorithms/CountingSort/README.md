@@ -9,7 +9,7 @@ ___
 - The algorithm has linear complexity O(n + k), which makes it efficient for large data sets with small values.
 - Does not require additional memory for recursion, as, for example, in merge algorithms.
 
-### Cons:
+### Cons
 - Doesn't work with data containing negative numbers or floating point values ​​(although it can be adapted for these cases).
 - Requires a significant amount of additional memory to store counters, especially for large element values.
 - Not suitable for general cases where elements have a wide range of values.
